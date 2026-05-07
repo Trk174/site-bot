@@ -11,7 +11,7 @@ options.add_argument("--disable-dev-shm-usage")
 driver = webdriver.Chrome(options=options)
 
 # ÎNLOCUIEȘTE CU URL-UL TĂU
-url = "http://site-ul-tau.rf.gd"
+url = "http://cyber4.rf.gd/premium.php"
 
 try:
     driver.get(url)
