@@ -2,9 +2,9 @@ name: Site Keep Alive
 
 on:
   schedule:
-    # Rulează la fiecare 20 de minute
+    # Această linie face totul automat la fiecare 20 de minute, nonstop
     - cron: '*/20 * * * *'
-  workflow_dispatch: # Permite pornirea manuală
+  workflow_dispatch: # Asta e doar o opțiune de rezervă, nu te obligă la nimic manual
 
 jobs:
   refresh:
