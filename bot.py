@@ -14,7 +14,7 @@ driver = webdriver.Chrome(options=options)
 KEEPALIVE_TOKEN = "cy8r4_k33p_2024_x7z"
 
 # Accesăm homepage-ul cu token-ul secret, anti-botul ne lasă să trecem direct
-url = f"http://cyber4.rf.gd/?keepalive={KEEPALIVE_TOKEN}"
+url = f"http://cyber4.rf.gd/premium.php/?keepalive={KEEPALIVE_TOKEN}"
 
 try:
     driver.get(url)
